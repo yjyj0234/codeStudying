@@ -27,7 +27,7 @@ class Solution {
         }
         current = slow;
         while (current != null) {
-            ListNode next = current.next;
+            ListNode next = current.next;//👉 다음 노드 잠깐 백업용
             current.next = prev;
             prev = current;
             current = next;
