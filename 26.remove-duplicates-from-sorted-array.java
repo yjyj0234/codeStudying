@@ -14,7 +14,6 @@ class Solution {
 
         while (fast <= nums.length-1 && slow <= nums.length-1) {
             if(nums[slow] == nums[fast]) {
-                
                 fast++;
             }else {
                 nums[slow+1] = nums[fast];
